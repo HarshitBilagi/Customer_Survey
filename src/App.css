@@ -6,20 +6,6 @@ body {
   background-image: url("../public/images/docs-dark@tinypng.1bbe175e.png");
 }
 
-.header,
-.survey {
-  text-align: center;
-}
-
-.surveyForm {
-  width: 30em;
-  height: 30em;
-  background-color: papayawhip;
-  border-radius: 5px;
-  margin: auto auto;
-  padding: 2%;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;

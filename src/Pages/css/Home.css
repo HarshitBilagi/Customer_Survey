@@ -1,0 +1,35 @@
+.container {
+  height: 100%;
+}
+
+.header,
+.survey {
+  text-align: center;
+  margin: 5%;
+  padding: 0.5rem;
+}
+
+.survey {
+  height: 250px;
+}
+
+.button {
+  position: relative;
+  width: 10rem;
+  height: 5rem;
+  font-size: 1rem;
+  background-color: white;
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-weight: bold;
+  color: black;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #7c00fe;
+  border: none;
+  color: white;
+}

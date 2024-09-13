@@ -1,6 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
+import "./css/Home.css";
 
 function Home() {
   const [greeting, setGreeting] = useState("");
@@ -18,18 +19,19 @@ function Home() {
   }, []);
 
   return (
-    <>
+    <div className="container">
       <div className="header">
         <h1>{greeting}</h1>
         <h2>Welcome to Customer Survey Page.</h2>
       </div>
       <div className="survey">
         <p>Click the button below to take up the Survey.</p>
-        <Link to="/survey">
-            <button>Go to Survey!</button>
+        <Link className="button" to="/survey">
+          Go to Survey!
         </Link>
       </div>
-    </>
+      <div />
+    </div>
   );
 }
 
