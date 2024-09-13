@@ -22,10 +22,10 @@ function Home() {
     <div className="container">
       <div className="header">
         <h1>{greeting}</h1>
-        <h2>Welcome to Customer Survey Page.</h2>
+        <h2>Welcome to our Shop.</h2>
       </div>
       <div className="survey">
-        <p>Click the button below to take up the Survey.</p>
+        <p>Click the button below to take the Survey.</p>
         <Link className="button" to="/survey">
           Go to Survey!
         </Link>
